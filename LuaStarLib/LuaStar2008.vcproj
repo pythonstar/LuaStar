@@ -18,7 +18,7 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="$(ProjectDir)\..\2008share\"
+			OutputDirectory="$(ProjectDir)\bin\"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
 			UseOfMFC="1"
@@ -65,7 +65,7 @@
 				Name="VCLinkerTool"
 				OutputFile="$(OutDir)$(ProjectName)D.dll"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="F:\pythonstar\lib\thirdparty\2008static"
+				AdditionalLibraryDirectories="F:\pythonstar\lib\2008static"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				RandomizedBaseAddress="1"
@@ -96,7 +96,7 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="$(ProjectDir)\..\2008share\"
+			OutputDirectory="$(SolutionDir)\bin\"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
 			UseOfMFC="1"
@@ -141,7 +141,7 @@
 				Name="VCLinkerTool"
 				OutputFile="$(OutDir)$(ProjectName).dll"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="F:\pythonstar\lib\thirdparty\2008static"
+				AdditionalLibraryDirectories="F:\pythonstar\lib\2008static"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
@@ -375,11 +375,11 @@
 				Name="Common"
 				>
 				<File
-					RelativePath="..\starlib\Common\common.cpp"
+					RelativePath="..\..\lib\Starlib\Common\common.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\Common\common.h"
+					RelativePath="..\..\lib\Starlib\Common\common.h"
 					>
 				</File>
 			</Filter>
@@ -387,11 +387,11 @@
 				Name="gzipDecoder"
 				>
 				<File
-					RelativePath="..\starlib\gzipDecoder\gzipDecoder.cpp"
+					RelativePath="..\..\lib\Starlib\gzipDecoder\gzipDecoder.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\gzipDecoder\gzipDecoder.h"
+					RelativePath="..\..\lib\Starlib\gzipDecoder\gzipDecoder.h"
 					>
 				</File>
 			</Filter>
@@ -399,11 +399,11 @@
 				Name="MD5"
 				>
 				<File
-					RelativePath="..\starlib\MD5\Md5.cpp"
+					RelativePath="..\..\lib\Starlib\MD5\Md5.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\MD5\Md5.h"
+					RelativePath="..\..\lib\Starlib\MD5\Md5.h"
 					>
 				</File>
 			</Filter>
@@ -411,19 +411,19 @@
 				Name="File"
 				>
 				<File
-					RelativePath="..\starlib\File\File.cpp"
+					RelativePath="..\..\lib\Starlib\File\File.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\File\File.h"
+					RelativePath="..\..\lib\Starlib\File\File.h"
 					>
 				</File>
 				<File
-					RelativePath="..\StarLib\File\SimpleIni.cpp"
+					RelativePath="..\..\lib\Starlib\File\SimpleIni.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\StarLib\File\SimpleIni.h"
+					RelativePath="..\..\lib\Starlib\File\SimpleIni.h"
 					>
 				</File>
 			</Filter>
@@ -431,19 +431,19 @@
 				Name="net"
 				>
 				<File
-					RelativePath="..\StarLib\net\htmldown.cpp"
+					RelativePath="..\..\lib\Starlib\net\htmldown.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\StarLib\net\htmldown.h"
+					RelativePath="..\..\lib\Starlib\net\htmldown.h"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\net\httppost.cpp"
+					RelativePath="..\..\lib\Starlib\net\httppost.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\starlib\net\httppost.h"
+					RelativePath="..\..\lib\Starlib\net\httppost.h"
 					>
 				</File>
 			</Filter>

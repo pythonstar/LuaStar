@@ -1,4 +1,4 @@
-
+ï»¿
 extern "C"
 {
 	#include <lua.h>
@@ -23,7 +23,7 @@ bool RunLuaFile(const char *lpszLuaFile, int argc, const char *argv[])
 			printf(szError);
 			lua_pop(L, 1);
 		}else{
-			//Èç¹ûÓĞ²ÎÊı¾ÍÑ¹Èë²ÎÊı
+			//å¦‚æœæœ‰å‚æ•°å°±å‹å…¥å‚æ•°
 			if ( argv != NULL ) {
 				for ( int i = 0; i < argc; ++i ) {
 					lua_pushstring(L, argv[i]);  
